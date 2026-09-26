@@ -1,0 +1,10 @@
+# Arquivos compilados
+*.exe
+*.out
+
+# Arquivos objeto
+*.o
+*.obj
+
+# Arquivos temporarios
+*.tmp
