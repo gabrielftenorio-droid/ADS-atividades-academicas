@@ -4,7 +4,7 @@ Atividade acadêmica desenvolvida na disciplina de **Algoritmos e Programação 
 
 ## Objetivo
 
-Desenvolver um programa capaz de receber três números inteiros e realizar operações matemáticas, comparações e verificações lógicas.
+Desenvolver um programa capaz de receber três números inteiros e realizar operações aritméticas, comparações e verificações lógicas.
 
 ## Conceitos praticados
 
@@ -14,18 +14,64 @@ Desenvolver um programa capaz de receber três números inteiros e realizar oper
 - Operadores lógicos
 - Estruturas condicionais `if/else`
 - Operador módulo `%`
+- Conversão de tipos para operações de divisão
 - Validação para evitar divisão por zero
 
 ## Funcionamento
 
 O programa:
 
-1. Solicita três números inteiros.
-2. Realiza operações aritméticas.
-3. Compara o primeiro número com o segundo.
-4. Compara o segundo número com o terceiro.
-5. Verifica se o primeiro número é positivo e se o segundo é par.
-6. Evita operações de divisão quando houver divisor igual a zero.
+1. Solicita três números inteiros ao usuário.
+2. Realiza operações aritméticas utilizando os valores informados.
+3. Verifica se é possível realizar a divisão sem divisão por zero.
+4. Compara se o primeiro número é maior que o segundo.
+5. Compara se o segundo número é menor que o terceiro.
+6. Verifica se o primeiro número é positivo e se o segundo número é par.
+7. Apresenta os resultados das verificações como verdadeiro ou falso.
+
+## Conceitos utilizados
+
+### Operadores aritméticos
+
+O programa utiliza operações de:
+
+- adição (`+`);
+- subtração (`-`);
+- multiplicação (`*`);
+- divisão (`/`).
+
+Antes da divisão, os valores são verificados para evitar uma operação com divisor igual a zero.
+
+### Operadores relacionais
+
+São realizadas comparações utilizando os operadores:
+
+```c
+num1 > num2
+```
+
+e:
+
+```c
+num2 < num3
+```
+
+Essas expressões permitem verificar relações entre os números fornecidos pelo usuário.
+
+### Operadores lógicos
+
+O programa também combina duas condições utilizando o operador lógico AND (`&&`):
+
+```c
+num1 > 0 && num2 % 2 == 0
+```
+
+A expressão verifica simultaneamente se:
+
+- o primeiro número é positivo;
+- o segundo número é par.
+
+O operador módulo (`%`) é utilizado para verificar o resto da divisão por 2.
 
 ## Contexto acadêmico
 
