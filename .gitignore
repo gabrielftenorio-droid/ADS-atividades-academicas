@@ -17,3 +17,6 @@ venv/
 
 # Banco de dados gerado localmente
 *.db
+
+# Java
+*.class
