@@ -8,3 +8,12 @@
 
 # Arquivos temporarios
 *.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Banco de dados gerado localmente
+*.db
