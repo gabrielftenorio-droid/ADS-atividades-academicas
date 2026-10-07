@@ -1,0 +1,62 @@
+body {
+    min-height: 100vh;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(138, 43, 226, 0.35), transparent 35%),
+        radial-gradient(circle at 80% 30%, rgba(30, 144, 255, 0.30), transparent 35%),
+        linear-gradient(135deg, #090b1a, #151238, #24134f);
+    color: #ffffff;
+}
+
+.zodiac-card {
+    max-width: 620px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 24px;
+    background: rgba(15, 17, 45, 0.82);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+.zodiac-title {
+    color: #f5d67b;
+    font-weight: 700;
+}
+
+.zodiac-subtitle {
+    color: #c9c9dc;
+}
+
+.form-label {
+    color: #ffffff;
+}
+
+.form-control {
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.btn-zodiac {
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #6f42c1, #0d6efd);
+    color: #ffffff;
+}
+
+.btn-zodiac:hover {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.zodiac-symbol {
+    font-size: 6rem;
+    line-height: 1;
+    color: #f5d67b;
+    text-shadow: 0 0 25px rgba(245, 214, 123, 0.45);
+}
+
+.sign-name {
+    color: #f5d67b;
+    font-weight: 700;
+}
