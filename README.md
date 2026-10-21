@@ -38,9 +38,12 @@ Entre os conteúdos presentes estão:
 - tratamento de exceções;
 - manipulação e análise de dados.
 
-Qualidade e Automação de Testes
+## Qualidade e Automação de Testes
+
 Atividades voltadas à validação de software, cobertura de código e execução automatizada de cenários de teste.
+
 Entre os conteúdos presentes estão:
+
 - grafo de fluxo de controle (GFC);
 - testes de caixa-branca e caminhos independentes;
 - estruturação e validação automatizada de casos de teste em Python.
