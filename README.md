@@ -38,7 +38,7 @@ Entre os conteúdos presentes estão:
 - tratamento de exceções;
 - manipulação e análise de dados.
 
-## Qualidade e Automação de Testes
+### Qualidade e Automação de Testes
 
 Atividades voltadas à validação de software, cobertura de código e execução automatizada de cenários de teste.
 
