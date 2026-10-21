@@ -16,6 +16,7 @@ ADS-atividades-academicas/
 ├── engenharia-e-modelagem/
 ├── frameworks-para-desenvolvimento/
 ├── programacao/
+├── qualidade-e-automacao-de-testes/
 └── sistemas-operacionais/
 ```
 
@@ -36,6 +37,13 @@ Entre os conteúdos presentes estão:
 - programação orientada a objetos;
 - tratamento de exceções;
 - manipulação e análise de dados.
+
+Qualidade e Automação de Testes
+Atividades voltadas à validação de software, cobertura de código e execução automatizada de cenários de teste.
+Entre os conteúdos presentes estão:
+- grafo de fluxo de controle (GFC);
+- testes de caixa-branca e caminhos independentes;
+- estruturação e validação automatizada de casos de teste em Python.
 
 ### Banco de Dados
 
@@ -114,6 +122,7 @@ Ao longo das atividades deste repositório são utilizados ou estudados conteúd
 - Bootstrap
 - Git e GitHub
 - Programação Orientada a Objetos
+- Qualidade e Automação de Testes
 - Banco de Dados
 - UML e BPMN
 - Sistemas Operacionais
