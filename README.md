@@ -31,7 +31,7 @@ Entre os conteúdos presentes estão:
 - C;
 - Python;
 - Java;
-- JavaScript
+- JavaScript;
 - lógica de programação;
 - estruturas de repetição;
 - vetores e funções;
