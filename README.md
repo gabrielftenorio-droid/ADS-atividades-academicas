@@ -31,6 +31,7 @@ Entre os conteúdos presentes estão:
 - C;
 - Python;
 - Java;
+- JavaScript
 - lógica de programação;
 - estruturas de repetição;
 - vetores e funções;
@@ -115,6 +116,7 @@ Ao longo das atividades deste repositório são utilizados ou estudados conteúd
 
 - Python
 - Java
+- JavaScript
 - C
 - PHP
 - HTML
