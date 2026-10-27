@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Interativo</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #101827;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #b8c3d6;
+            margin-bottom: 25px;
+        }
+
+        canvas {
+            background-color: #1c293b;
+            border: 2px solid #3b82f6;
+            border-radius: 12px;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+    <script src="src/script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Canvas Interativo</h1>
+
+    <p>Experimento de animação utilizando HTML5 e JavaScript.</p>
+
+    <canvas id="meuCanvas" width="900" height="500">
+        Seu navegador não suporta o elemento Canvas.
+    </canvas>
+
+</body>
+</html>
