@@ -5,6 +5,11 @@ Este projeto é um jogo web clássico de Jokenpô (Pedra, Papel e Tesoura) desen
 
 O foco da aplicação foi consolidar conhecimentos em desenvolvimento Front-end, com ênfase na escuta de eventos do usuário, lógica condicional e manipulação direta do Document Object Model (DOM).
 
+## 📜 Regras do Jogo
+- **Pedra:** ganha da tesoura, perde para o papel.
+- **Papel:** ganha da pedra, perde para a tesoura.
+- **Tesoura:** ganha do papel, perde para a pedra.
+
 ## 🚀 Tecnologias Utilizadas
 - **HTML5:** Estruturação semântica da interface.
 - **CSS3:** Estilização, layout com Flexbox e eventos visuais de animação (`transition`, `:hover`).
@@ -16,14 +21,11 @@ O foco da aplicação foi consolidar conhecimentos em desenvolvimento Front-end,
 - Placar dinâmico que mantém o estado da pontuação sem recarregar a página.
 - Sistema de reinício de partida ocultado/revelado dinamicamente.
 
-• Pedra ganha da tesoura, perde para o papel.
-• Papel ganha da pedra, perde para a tesoura.
-• Tesoura ganha do papel, perde para a pedra.
-
 ## 📁 Estrutura de Arquivos
 - `index.html`: Estrutura da página.
 - `style.css`: Folhas de estilo e animações.
 - `script.js`: Inteligência do jogo.
+- `Relatorio_Aula_Pratica.pdf`: Documentação acadêmica completa da atividade.
 
 ## 🖥️ Como Executar
 1. Clone este repositório em sua máquina local.
