@@ -29,5 +29,6 @@ O foco da aplicação foi consolidar conhecimentos em desenvolvimento Front-end,
 
 ## 🖥️ Como Executar
 1. Clone este repositório em sua máquina local.
-2. Abra a pasta do projeto no Visual Studio Code.
-3. Inicie o projeto abrindo o arquivo `index.html` diretamente no navegador ou utilize a extensão **Live Server**.
+2. Abra a pasta do projeto em seu editor de código ou IDE favorita (Visual Studio Code, PyCharm, WebStorm, Sublime Text, etc.).
+3. Abra o arquivo `index.html` diretamente no seu navegador web para iniciar o jogo.
+4. *(Opcional)* Caso utilize o VS Code, você pode usar a extensão **Live Server** para rodar o projeto em um servidor local.
