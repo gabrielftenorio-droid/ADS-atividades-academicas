@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.jogo-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 350px;
+}
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+.botoes-jogada {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.btn-jogada {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    transition: transform 0.2s, background-color 0.2s;
+}
+.btn-jogada:hover {
+    transform: scale(1.1);
+    background-color: #0056b3;
+}
+.resultado-area {
+    margin: 20px 0;
+    padding: 15px;
+    background: #e9ecef;
+    border-radius: 5px;
+}
+#reiniciar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.2s;
+}
+#reiniciar:hover {
+    background-color: #218838;
+}
+.oculto {
+    display: none !important;
+}
