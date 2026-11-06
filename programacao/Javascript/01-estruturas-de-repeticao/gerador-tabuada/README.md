@@ -47,8 +47,3 @@ Foram realizados testes com valores válidos e inválidos:
 
 - **Valores válidos:** números inteiros de 1 a 10, com geração da tabuada correspondente.
 - **Valores inválidos:** valores como `0` e `11`, que exibem uma mensagem de validação.
-
-## Relatório acadêmico
-
-O relatório da atividade apresenta o desenvolvimento, os testes realizados, os resultados obtidos e a importância das estruturas de repetição.
-
